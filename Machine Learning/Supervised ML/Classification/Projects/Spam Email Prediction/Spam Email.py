@@ -20,8 +20,6 @@ copyData['spam'] = copyData['spam'].astype(int)
 X_text= copyData['text']
 y = copyData['spam']
 
-
-
 vectorizer = TfidfVectorizer(stop_words='english', max_features=5000)
 X = vectorizer.fit_transform(X_text)
 
