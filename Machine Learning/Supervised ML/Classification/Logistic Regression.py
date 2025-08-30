@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 
 data = {
     "studyHours": [
@@ -38,8 +38,13 @@ predicted_pass = model.predict(pd.DataFrame([[hours]], columns=["studyHours"]))
 print(f"Predicted pass status for {hours} study hours: {predicted_pass[0]}")
 
 y_pred = model.predict(X_test)
-r2 = r2_score(y_test, y_pred)
-print("R² Score:", r2)
+
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Precision:", precision_score(y_test, y_pred))
+print("Recall:", recall_score(y_test, y_pred))
+print("F1 Score:", f1_score(y_test, y_pred))
+print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
+print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 plt.scatter(X, y, color="blue", label="Actual Data")         
 plt.plot(X,model.predict(X), color="red", label="Regression Line") 
