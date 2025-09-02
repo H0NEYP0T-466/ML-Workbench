@@ -55,6 +55,7 @@ print("Enter fruit weight:")
 weight = float(input())
 
 custom_prediction = model.predict([[size, weight]])[0]
+#reason of passing [0] is that if we dont do this it will return an array with one element and we need the element itself is simpler terms that i will put the prediction in a box and we have to open the box the box to see the actual prediction if we want to see the acutal prediction without the box we put [0].
 
 fruit_names = {0: "Apple 🍎", 1: "Mango 🥭", 2: "Banana 🍌"}
 print(f"\nThis is likely a {fruit_names[custom_prediction]}")
