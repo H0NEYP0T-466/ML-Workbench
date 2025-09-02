@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 from sklearn.neighbors import KNeighborsClassifier
 
+#knn automatically detects that he has to do OvR is their is a case like multi class classification like in this project as banana apple and mango 1 2 3 so have automatically decided to use OvR rather than explicitly mentioning it to do soo if its logistic classification then we have to do this applying of OvR ecplicitly.
 
 np.random.seed(42)
 
