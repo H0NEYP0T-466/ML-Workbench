@@ -5,11 +5,34 @@ from sklearn.tree import DecisionTreeClassifier
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 
+import random
+
 data = {
-    "study_hours": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-    "assignments_done": [1, 1, 2, 3, 3, 4, 5, 6, 7, 8],
-    "result": ["Fail", "Fail", "Fail", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass"]
+    "study_hours": [],
+    "assignments_done": [],
+    "result": []
 }
+
+random.seed(42)  
+
+for i in range(40):
+  
+    hours = random.randint(1, 12)
+    
+
+    assignments = max(0, min(hours + random.randint(-2, 2), 12))
+    
+
+    if hours >= 5 and assignments >= 3:
+        result = "Pass"
+    else:
+       
+        result = "Pass" if random.random() < 0.2 else "Fail"
+    
+    data["study_hours"].append(hours)
+    data["assignments_done"].append(assignments)
+    data["result"].append(result)
+
 
 df = pd.DataFrame(data)
 
