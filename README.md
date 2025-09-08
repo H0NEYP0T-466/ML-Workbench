@@ -17,18 +17,9 @@ Here are some visual examples of what you can create with this repository:
 
 *Linear Regression – Student Grade Prediction: Visualizes the relationship between study hours and student performance*
 
-<img src="Machine Learning/Supervised ML/Random_Forest/Projects/Heart_Disease(Classification)/feature_importance.png" alt="Random Forest – Heart Disease Classification" width="400"/>
-
-*Random Forest – Heart Disease Classification: Feature importance analysis for medical diagnosis*
 
 ### Unsupervised Machine Learning
-<img src="Machine Learning/UnSupervised ML/Clustering/Hierarchical/hierarchical_clustering.png" alt="Hierarchical Clustering Analysis" width="400"/>
 
-*Hierarchical Clustering Analysis: Customer segmentation and cluster visualization*
-
-<img src="Machine Learning/UnSupervised ML/Dimensionality_Reduction/PCA/pca_analysis.png" alt="Principal Component Analysis (PCA)" width="400"/>
-
-*Principal Component Analysis (PCA): Dimensionality reduction and data compression visualization*
 
 ### Association Rule Learning
 <img src="Machine Learning/UnSupervised ML/Association_Rule_Learning/Apriori/Projects/Market_Basket(Apriori)/market_basket_apriori_analysis.png" alt="Apriori Market Basket Analysis" width="400"/>
