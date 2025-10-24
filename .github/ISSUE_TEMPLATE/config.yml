@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🛡️ Security Vulnerability
+    url: https://github.com/H0NEYP0T-466/AI_PRATICE/security/advisories/new
+    about: Report a security vulnerability through our responsible disclosure process
+  - name: ❓ Questions & Support
+    url: https://github.com/H0NEYP0T-466/AI_PRATICE/discussions
+    about: Ask questions and get help from the community
+  - name: 💬 General Discussion
+    url: https://github.com/H0NEYP0T-466/AI_PRATICE/discussions
+    about: Discuss ideas, share feedback, or connect with other learners

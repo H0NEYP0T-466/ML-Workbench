@@ -1,10 +1,30 @@
 # AI_PRATICE
 
-![GitHub License](https://img.shields.io/github/license/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=brightgreen)
-![GitHub Stars](https://img.shields.io/github/stars/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=yellow)
-![GitHub Forks](https://img.shields.io/github/forks/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=blue)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
-![GitHub Issues](https://img.shields.io/github/issues/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=red)
+<p align="center">
+
+  <!-- Core -->
+  ![GitHub License](https://img.shields.io/github/license/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=brightgreen)  
+  ![GitHub Stars](https://img.shields.io/github/stars/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=yellow)  
+  ![GitHub Forks](https://img.shields.io/github/forks/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=blue)  
+  ![GitHub Issues](https://img.shields.io/github/issues/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=red)  
+  ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=orange)  
+  ![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)  
+
+  <!-- Activity -->
+  ![Last Commit](https://img.shields.io/github/last-commit/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=purple)  
+  ![Commit Activity](https://img.shields.io/github/commit-activity/m/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=teal)  
+  ![Repo Size](https://img.shields.io/github/repo-size/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=blueviolet)  
+  ![Code Size](https://img.shields.io/github/languages/code-size/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=indigo)  
+
+  <!-- Languages -->
+  ![Top Language](https://img.shields.io/github/languages/top/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=critical)  
+  ![Languages Count](https://img.shields.io/github/languages/count/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=success)  
+
+  <!-- Community -->
+  ![Documentation](https://img.shields.io/badge/Docs-Available-green?style=for-the-badge&logo=readthedocs&logoColor=white)  
+  ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=for-the-badge)  
+
+</p>
 
 A comprehensive repository for learning and practicing Artificial Intelligence, Machine Learning, and Data Science concepts. This collection includes hands-on implementations of various algorithms, data processing techniques, visualization methods, and real-world projects designed for educational purposes.
 
@@ -37,6 +57,8 @@ Here are some visual examples of what you can create with this repository:
 - [📖 Documentation](#-table-of-contents)
 - [🐛 Issues](https://github.com/H0NEYP0T-466/AI_PRATICE/issues)
 - [🤝 Contributing](CONTRIBUTING.md)
+- [🛡 Security](SECURITY.md)
+- [📏 Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## 📋 Table of Contents
 
@@ -46,9 +68,12 @@ Here are some visual examples of what you can create with this repository:
 - [✨ Features](#-features)
 - [📁 Project Structure](#-project-structure)
 - [🛠️ Built With](#️-built-with)
+- [📦 Dependencies & Packages](#-dependencies--packages)
 - [🗺️ Roadmap](#️-roadmap)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
+- [🛡 Security](#-security)
+- [📏 Code of Conduct](#-code-of-conduct)
 - [🙏 Acknowledgements](#-acknowledgements)
 
 ## 🚀 Installation
@@ -220,6 +245,62 @@ AI_PRATICE/
 ### 🚀 Specialized Tools
 ![UMAP](https://img.shields.io/badge/UMAP-%23FF6B35.svg?style=for-the-badge&logoColor=white)
 
+## 📦 Dependencies & Packages
+
+This project uses the following third-party packages to enable data science, machine learning, and visualization capabilities.
+
+### Runtime Dependencies
+
+<details>
+<summary><b>Core Data Science & ML Libraries</b> (Click to expand)</summary>
+
+[![NumPy](https://img.shields.io/pypi/v/numpy?style=for-the-badge&label=numpy&logo=numpy)](https://pypi.org/project/numpy/)  
+*The fundamental package for scientific computing with Python - arrays, matrices, and mathematical functions*
+
+[![Pandas](https://img.shields.io/pypi/v/pandas?style=for-the-badge&label=pandas&logo=pandas)](https://pypi.org/project/pandas/)  
+*Powerful data structures and data analysis tools for Python*
+
+[![Matplotlib](https://img.shields.io/pypi/v/matplotlib?style=for-the-badge&label=matplotlib)](https://pypi.org/project/matplotlib/)  
+*Comprehensive library for creating static, animated, and interactive visualizations*
+
+[![Seaborn](https://img.shields.io/pypi/v/seaborn?style=for-the-badge&label=seaborn)](https://pypi.org/project/seaborn/)  
+*Statistical data visualization library based on matplotlib*
+
+[![scikit-learn](https://img.shields.io/pypi/v/scikit-learn?style=for-the-badge&label=scikit-learn&logo=scikit-learn)](https://pypi.org/project/scikit-learn/)  
+*Machine learning library featuring various classification, regression and clustering algorithms*
+
+[![SciPy](https://img.shields.io/pypi/v/scipy?style=for-the-badge&label=scipy&logo=scipy)](https://pypi.org/project/scipy/)  
+*Fundamental algorithms for scientific computing in Python*
+
+[![mlxtend](https://img.shields.io/pypi/v/mlxtend?style=for-the-badge&label=mlxtend)](https://pypi.org/project/mlxtend/)  
+*Machine Learning extensions library with tools for association rule learning and more*
+
+[![NetworkX](https://img.shields.io/pypi/v/networkx?style=for-the-badge&label=networkx)](https://pypi.org/project/networkx/)  
+*Python package for the creation, manipulation, and study of complex networks*
+
+[![umap-learn](https://img.shields.io/pypi/v/umap-learn?style=for-the-badge&label=umap-learn)](https://pypi.org/project/umap-learn/)  
+*Uniform Manifold Approximation and Projection for dimension reduction*
+
+</details>
+
+### Installation
+
+All dependencies can be installed using pip:
+
+```bash
+# Core dependencies
+pip install numpy pandas matplotlib seaborn scikit-learn
+
+# Additional ML and visualization tools
+pip install mlxtend networkx umap-learn scipy
+```
+
+Or install everything at once:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn mlxtend networkx umap-learn scipy
+```
+
 ## 🗺️ Roadmap
 
 ### 🎯 Practical Learning Path
@@ -313,6 +394,14 @@ We welcome contributions from the community! Please read our [Contributing Guide
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 🛡 Security
+
+We take security seriously. If you discover a security vulnerability, please follow our responsible disclosure process outlined in [SECURITY.md](SECURITY.md).
+
+## 📏 Code of Conduct
+
+This project adheres to the Contributor Covenant Code of Conduct. By participating, you are expected to uphold this code. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details.
+
 ## 🙏 Acknowledgements
 
 ### 💡 Inspiration
@@ -335,8 +424,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
-**Made with ❤️ by [H0NEYP0T-466](https://github.com/H0NEYP0T-466)**
-
-</div>
+<p align="center">Made with ❤️ by H0NEYP0T-466</p>
