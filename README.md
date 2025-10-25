@@ -16,6 +16,8 @@
   ![Repo Size](https://img.shields.io/github/repo-size/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=blueviolet)  
   ![Code Size](https://img.shields.io/github/languages/code-size/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=indigo)  
 
+![Alt](https://repobeats.axiom.co/api/embed/be8e0bd0d8626cab8ff7b70229f79fd99b55c648.svg "Repobeats analytics image")
+
   <!-- Languages -->
   ![Top Language](https://img.shields.io/github/languages/top/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=critical)  
   ![Languages Count](https://img.shields.io/github/languages/count/H0NEYP0T-466/AI_PRATICE?style=for-the-badge&color=success)  
