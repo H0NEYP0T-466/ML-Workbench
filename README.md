@@ -91,8 +91,8 @@ Before running any code in this repository, ensure you have the following instal
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/H0NEYP0T-466/AI_PRATICE.git
-   cd AI_PRATICE
+   git clone https://github.com/H0NEYP0T-466/ML-Workbench.git
+   cd ML-Workbench
    ```
 
 2. **Install required dependencies**
